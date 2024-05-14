@@ -8,6 +8,26 @@
   scroll-behavior: smooth;
 }
 
+.audio-control {
+  display: flex;
+  align-items: center;
+}
+
+#audio-icon {
+  margin-right: 10px;
+  color: #fff; /* Sesuaikan dengan warna ikon audio */
+  cursor: pointer;
+}
+
+#audio-icon:hover {
+  color: #3a6cf4; /* Warna ikon ketika dihover */
+}
+
+#background-audio {
+  display: none; /* Sembunyikan audio secara default */
+}
+
+
 section{
   padding: 100px 200px;
 }
